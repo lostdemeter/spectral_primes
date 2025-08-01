@@ -93,6 +93,7 @@ The 100 zeros are hardcoded with 10 decimal precision, sourced from reliable tab
 
 Tested on n from 1,000 to 100,000 against known primes:
 
+```
 Riemann Explicit Formula - Accuracy Validation
 ============================================================
 n		Actual		Predicted	Error (%)
@@ -111,6 +112,7 @@ Average error: 0.119%
 Range tested: 1000 to 100000
 
 Implementation achieves 0.119% average error
+```
 
 This outperforms li(x) inversion (~0.05-0.17% in range) and basic asymptotics (~1-2%).
 
